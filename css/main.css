@@ -1,149 +1,117 @@
-:root{
+:root {
   width: 100vh;
   height: 300vw;
-  
-}
-#container{
+}.
+#container {
   width: 80%;
-  
-  
-  background-color:whitesmoke;
-  border: solid 0.1rem black ;
-  
+
+  background-color: whitesmoke;
+  border: solid 0.1rem black;
+
   margin-top: 200px;
   margin-left: 350px;
-  
-  
-  display:flex ;
+
+  display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-
-
 }
-.header{
-  
+.header {
   width: 80%;
   height: 100px;
   align-items: center;
-  
 }
-.header .title{
+.header .title {
   text-align: center;
-
-  
   font-family: Poppins;
-  
 }
-.login-information{
-
+.login-information {
   display: flex;
   flex-direction: column;
   outline: 0;
 }
-#email{
- background-color: whitesmoke;
- 
+#email {
+  background-color: whitesmoke;
   width: 20rem;
   height: 1.5rem;
   margin-top: 25px;
   margin-bottom: 10px;
-  border-radius: 0.5rem ;
+  border-radius: 0.5rem;
   outline: 0;
-  font:400 1.0rem poppins;
-
+  font: 400 1rem poppins;
 }
-#password{
-  background-color:whitesmoke;
-
+#password {
+  background-color: whitesmoke;
   width: 20rem;
   height: 1.5rem;
   margin-top: 10px;
   margin-bottom: 10px;
-  border-radius: 0.5rem ;
+  border-radius: 0.5rem;
   outline: 0;
-  font:400 1.0rem poppins;
-  
+  font: 400 1rem poppins;
 }
-.login{
+.login {
   background-color: greenyellow;
-  
   margin-bottom: 15px;
   width: auto;
-  height: 3.0rem;
+  height: 3rem;
   margin-top: 35px;
   border-radius: 0.5rem;
-  border:0.5 black;
+  border: 0.5 black;
   outline: 0vh;
-
 }
-.login:hover{
+.login:hover {
   transition: 0.3s;
-  background-color:rgb(113, 168, 29);
- 
+  background-color: rgb(113, 168, 29);
 }
-.checkbox{
+.checkbox {
   display: grid;
   grid-column: 2;
-  
+
   grid-template-columns: 5%;
-  grid-template-areas: "rmmember texting" ;
-  
-  
+  grid-template-areas: "rmmember texting";
 }
-.checkbox #remmember{
-  
-  grid-area: initial remmember ;
-  
+.checkbox #remmember {
+  grid-area: initial remmember;
 }
-.checkbox .text{
+.checkbox .text {
   grid-area: initial texting;
   margin: 0;
   margin-left: 0.7rem;
   font-size: 0.7rem;
   margin-top: 0.25rem;
-  
 }
-.login-other{
+.login-other {
   font-size: small;
   align-self: center;
 }
-.lgoogle{
+.lgoogle {
   display: grid;
   grid-column: 2;
   grid-template-columns: 50%;
   grid-template-areas: "google facebook";
   margin-bottom: 25px;
-  
 }
-.lgoogle img{
-width: 55px;
-margin-top: 10px;
-margin:0;
-
+.lgoogle img {
+  width: 55px;
+  margin-top: 10px;
+  margin: 0;
 }
-.btn-log-google{
+.btn-log-google {
   width: 140px;
-  background-color:whitesmoke;
-  border:solid 0.1rem black;
+  background-color: whitesmoke;
+  border: solid 0.1rem black;
   border-radius: 0.5;
   outline: 0;
   grid-area: google;
-
-  
 }
-.facebook-login{
+.facebook-login {
   width: 140px;
-  background-color:whitesmoke;
-  border:solid 0.1rem black;
+  background-color: whitesmoke;
+  border: solid 0.1rem black;
   border-radius: 0.5;
   outline: 0;
   grid-area: facebook;
   margin-left: 20px;
 }
-.facebook-login:hover{
-  transition: 0.3s;
-  
-}
-
 
