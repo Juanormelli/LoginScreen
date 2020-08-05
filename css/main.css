@@ -1,0 +1,132 @@
+:root{
+  width: 100vh;
+  height: 300vw;
+  
+}
+#container{
+  width: 80%;
+  
+  
+  background-color:whitesmoke;
+  border: solid 0.1rem black ;
+  
+  margin-top: 200px;
+  margin-left: 350px;
+  
+  
+  display:flex ;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+
+}
+.header{
+  
+  width: 80%;
+  height: 100px;
+  align-items: center;
+  
+}
+.header .title{
+  text-align: center;
+
+  
+  font-family: Poppins;
+  
+}
+.login-information{
+
+  display: flex;
+  flex-direction: column;
+  outline: 0;
+}
+#email{
+ background-color: whitesmoke;
+ 
+  width: 20rem;
+  height: 1.5rem;
+  margin-top: 25px;
+  margin-bottom: 10px;
+  border-radius: 0.5rem ;
+  outline: 0;
+  font:400 1.0rem poppins;
+
+}
+#password{
+  background-color:whitesmoke;
+
+  width: 20rem;
+  height: 1.5rem;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 0.5rem ;
+  outline: 0;
+  font:400 1.0rem poppins;
+  
+}
+.login{
+  background-color: greenyellow;
+  
+  margin-bottom: 15px;
+  width: auto;
+  height: 3.0rem;
+  margin-top: 35px;
+  border-radius: 0.5rem;
+  border:0.5 black;
+  outline: 0vh;
+
+}
+.login:hover{
+  transition: 0.3s;
+  background-color:rgb(113, 168, 29);
+ 
+}
+.checkbox{
+  display: grid;
+  grid-column: 2;
+  
+  grid-template-columns: 5%;
+  grid-template-areas: "rmmember texting" ;
+  
+  
+}
+.checkbox #remmember{
+  
+  grid-area: initial remmember ;
+  
+}
+.checkbox .text{
+  grid-area: initial texting;
+  margin: 0;
+  margin-left: 0.7rem;
+  font-size: 0.7rem;
+ margin-top: 0.25rem;
+  
+}
+.lgoogle{
+  display: grid;
+  grid-column: 2;
+  grid-template-columns: 15%;
+  grid-template-areas: "img button";
+  
+
+}
+.lgoogle img{
+width: 55px;
+margin-top: 10px;
+margin:0;
+grid-area:initial img ;
+
+
+}
+.btn-log-google{
+  width: 55px;
+  background-color:whitesmoke;
+  border:0;
+  border-radius: 0.5;
+  outline: 0;
+
+  grid-area: initial button;
+}
+
