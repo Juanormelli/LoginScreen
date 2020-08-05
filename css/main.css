@@ -101,32 +101,49 @@
   margin: 0;
   margin-left: 0.7rem;
   font-size: 0.7rem;
- margin-top: 0.25rem;
+  margin-top: 0.25rem;
   
+}
+.login-other{
+  font-size: small;
+  align-self: center;
 }
 .lgoogle{
   display: grid;
   grid-column: 2;
-  grid-template-columns: 15%;
-  grid-template-areas: "img button";
+  grid-template-columns: 50%;
+  grid-template-areas: "google facebook";
+  margin-bottom: 25px;
   
-
 }
 .lgoogle img{
 width: 55px;
 margin-top: 10px;
 margin:0;
-grid-area:initial img ;
-
 
 }
 .btn-log-google{
-  width: 55px;
+  width: 140px;
   background-color:whitesmoke;
-  border:0;
+  border:solid 0.1rem black;
   border-radius: 0.5;
   outline: 0;
+  grid-area: google;
 
-  grid-area: initial button;
+  
 }
+.facebook-login{
+  width: 140px;
+  background-color:whitesmoke;
+  border:solid 0.1rem black;
+  border-radius: 0.5;
+  outline: 0;
+  grid-area: facebook;
+  margin-left: 20px;
+}
+.facebook-login:hover{
+  transition: 0.3s;
+  
+}
+
 
